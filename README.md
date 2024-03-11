@@ -75,7 +75,7 @@ Install flyctl
 npm install -g @fly/fly
 ```
 
-Login to fly
+Login to fly. I signed up with my Github account.
 
 ```bash
 flyctl auth login
@@ -112,3 +112,11 @@ Deploy the app
 ```bash
 flyctl deploy
 ````
+
+## create a volume in fly app
+
+```bash
+fly volumes create db
+```
+
+agree to the prompt to create a single volume and select same region as the app, as you can read in the fly dashboard.
