@@ -107,7 +107,7 @@ Also make sure that the internal port is set to the port that the Astro server i
 
 Make sure the settings in these files are correct.
 
-Deploy the app
+Deploy the app. By Pushing to the main branch or running the following command.
 
 ```bash
 flyctl deploy
