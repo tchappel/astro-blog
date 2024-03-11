@@ -18,7 +18,7 @@ primary_region = 'lhr'
 
 [mounts]
   source = "db"
-  destination = "/mnt/data"
+  destination = "/mnt/db"
 
 [[vm]]
   memory = '1gb'
